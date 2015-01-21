@@ -1,0 +1,25 @@
+{
+    "name": "au5ton-portfolio",
+    "description": "My portfolio. http://austinj.net/portfolio",
+    "version": "0.0.1",
+    "author": "Austin Jackson <theaustinjackson@gmail.com>",
+    "contributors": [
+        {
+            "name": "Austin Jackson",
+            "email": "theaustinjackson@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:au5ton/portfolio.git"
+    },
+    "bugs": {
+        "url": "https://github.com/au5ton/au5ton.github.io/issues"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "evil-icons": ">= 1.2.0",
+        "jquery":"2.1.x",
+        "octicons":"github/octicons"
+    }
+}
