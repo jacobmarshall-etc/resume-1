@@ -69,6 +69,7 @@ html {
     font-size: 100%; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    min-height: 100%;
 }
 
 /**
@@ -89,6 +90,11 @@ textarea {
  */
 
 body {
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
     margin: 0;
 }
 
