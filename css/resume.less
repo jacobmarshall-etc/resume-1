@@ -1,9 +1,13 @@
 /*
- *  Portfolio
- *  https://github.com/au5ton/portfolio
+ *  Résumé
+ *  https://github.com/au5ton/resume
  */
 
-@font-sans: "Roboto","Segoe UI","Helvetica Neue", sans-serif;
+@sans: "Roboto", sans-serif;
+@serif: "Lora", serif;
+@mono: "Menlo", "Courier New", monospace;
+
+@padding: 10px;
 
 
 * {
@@ -16,7 +20,7 @@
 
 body {
     background: #eee;
-    font-family: @font-sans;
+    font-family: @sans;
 }
 
 .main {
@@ -32,6 +36,30 @@ body {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.section {
+    min-height: 310px;
+}
+
+.p-left-side {
+    padding-left: 0px;
+    padding-right: @padding;
+}
+
+.p-right-side {
+    padding-left: @padding;
+    padding-right: 0px;
+}
+
+.spacer {
+    margin: 0;
+    padding: 0;
 }
 
 .basic-info {

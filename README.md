@@ -1,2 +1,2 @@
-# portfolio
-A forkable portfolio page for your Github Pages website
+# résumé
+A forkable résumé page for your Github Pages website
