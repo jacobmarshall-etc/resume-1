@@ -39,6 +39,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
+    text-overflow: ellipsis;
 }
 
 .section {
@@ -53,6 +54,23 @@ body {
 .p-right-side {
     padding-left: @padding;
     padding-right: 0px;
+}
+
+@media(max-width: 414px) {
+    .p-left-side {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .p-right-side {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (width: 320px) {
+    #email {
+        font-size: 0.9em;
+    }
 }
 
 .spacer {
