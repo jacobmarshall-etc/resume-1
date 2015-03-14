@@ -36,7 +36,7 @@ body {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 10px;
     width: 100%;
     text-overflow: ellipsis;
@@ -44,6 +44,17 @@ body {
 
 .section {
     min-height: 310px;
+}
+
+.p-left-side,
+.p-right-side {
+    display: table;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .content-box {
+        display: table-cell;
+    }
 }
 
 .p-left-side {
